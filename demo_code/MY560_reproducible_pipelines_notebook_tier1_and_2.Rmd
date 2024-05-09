@@ -50,7 +50,7 @@ head(scaled_data)
 data$Happiness_score[1] == scaled_data$Happiness_score[1] # should be FALSE -- we could code up a warning here if we want
 
 # if we wanted to write an intermediate/clean version, we could do so, making sure not to overwrite the original data
-saveRDS(scaled_data, "./data/processed/WHR_2017_processed.rds")
+saveRDS(scaled_data, "./data/processed/WHR_2017_processed.rds") # the dot tells you where to store stuff
 ```
 
 Finally, we can run some analyses:
